@@ -1,0 +1,55 @@
+.container {
+    background: #464550;
+    flex: auto;
+}
+.title{
+    background-color: #87677a ;
+    color: #fff;
+    display: block;
+    font-family: 'Luxurious Roman', cursive;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 60ch;
+
+    animation: typing 2s steps(54), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+.title__h1--colegio{
+    font-size: 32px;
+}
+
+.title__h1--practica{
+    font-size: 30px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.title__h1--celicidad{
+    font-size: 20px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.subtitulo{
+    color: #fff;
+    display: block;
+    font-family: 'Bad Script', cursive;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 60ch;
+
+    animation: typing 2s steps(60), blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+
+@keyframes typing {
+    from { width: 0;}
+}
+
+@keyframes blink {
+    50% { border-color: transparent ;}
+}
