@@ -4,6 +4,9 @@
 }
 .title{
     background-color: #87677a ;
+    box-shadow: 11px 14px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 11px 14px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 14px 5px 0px rgba(0,0,0,0.75);
     color: #fff;
     display: block;
     font-family: 'Luxurious Roman', cursive;
@@ -17,6 +20,8 @@
     padding: 20px;
     margin: 20px;
     
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
 }
 
 .title__h1--colegio{
@@ -29,7 +34,7 @@
 }
 
 .title__h1--celicidad{
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Cinzel Decorative', cursive;
 }
 
@@ -43,7 +48,19 @@
 
     animation: typing 2s steps(60), blink .5s infinite step-end alternate;
     overflow: hidden;
+
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
 }
+
+.subtitulo__h2--facturas{
+    background-color: #d7baac;
+}
+.subtitulo__h2--noquis{
+    background-color: #8e6865;
+}
+
+
 
 
 @keyframes typing {
