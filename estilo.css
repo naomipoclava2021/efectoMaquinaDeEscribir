@@ -14,7 +14,7 @@
     border-right: 4px solid;
     width: 60ch;
 
-    animation: typing 2s steps(54), blink .5s infinite step-end alternate;
+    animation: typing 2s steps(60), blink .5s infinite step-end alternate;
     overflow: hidden;
     
     padding: 20px;
@@ -24,18 +24,18 @@
     animation-iteration-count: infinite;
 }
 
-.title__h1--colegio{
-    font-size: 32px;
+.title__h1--colegio {
+font-family: 'Luxurious Roman', cursive;
+font-size: 32px;
 }
 
-.title__h1--practica{
+.title__h1--practica, .ingredientes, .procedimiento{
     font-size: 30px;
     font-family: 'Cinzel Decorative', cursive;
 }
 
 .title__h1--celicidad{
-    font-size: 25px;
-    font-family: 'Cinzel Decorative', cursive;
+    font-size: 35px;
 }
 
 .subtitulo{
@@ -43,22 +43,35 @@
     display: block;
     font-family: 'Bad Script', cursive;
     white-space: nowrap;
-    border-right: 4px solid;
-    width: 60ch;
+    width: 50ch;
 
-    animation: typing 2s steps(60), blink .5s infinite step-end alternate;
-    overflow: hidden;
+    padding: 20px;
+    margin: 20px;
 
-    animation-direction: alternate-reverse;
-    animation-iteration-count: infinite;
+    animation: typing 2s steps(50), blink .5s infinite step-end alternate;
+
 }
 
-.subtitulo__h2--facturas{
+.subtitulo__h2--facturas, .subtitulo__h2--pasta, .subtitulo__h2--muffin{
     background-color: #d7baac;
+    color: #8e6865;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
-.subtitulo__h2--noquis{
+.subtitulo__h2--noquis, .subtitulo__h2--pizza, .subtitulo__h2--lemon{
     background-color: #8e6865;
+    color: #d7baac;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
+
+.subtitulo__ul--listaDesordenada, .subtitulo__ol--listaOrdenada {
+    font-family: 'Roboto', sans-serif;
+}
+
+    
 
 
 
